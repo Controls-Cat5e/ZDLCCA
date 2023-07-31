@@ -33,6 +33,6 @@ button = st.button("Calculate carbon footprint")
 if button:
     if size_car == "Small":
         if fuel_type == "Petrol":
-            if units == "miles":
+            if units == "Miles":
                 carbon_footprint = (float(km_drive) * 0.32990).round(2)
                 st.write("Your carbon footprint is: ", carbon_footprint, "kg CO2e")
