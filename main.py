@@ -39,5 +39,6 @@ if button:
                 
             elif units == "Kilometers":
                 carbon_footprint = round(float(km_drive) * 0.205, 2)
+                st.write("Your carbon footprint is: ", carbon_footprint, "kg CO2e")
                 
         
